@@ -10,7 +10,7 @@ def clear_pins():
     GPIO.output(incorrect_pin, GPIO.LOW)
 
 def light_pin(pin):
-    GPIO.output(pin, GPIO.LOW)
+    GPIO.output(pin, GPIO.HIGH)
 
 def main():
     GPIO.setmode(GPIO.BCM)
@@ -33,10 +33,10 @@ def main():
 
         if response == answer:
             pin = correct_pin
-            print("Correct!")
+            # print("Correct!")
         else:
             print("Incorrect")
-            pin = incorrect_pin
+            # pin = incorrect_pin
 
         light_pin(pin)
         time.sleep(3)
