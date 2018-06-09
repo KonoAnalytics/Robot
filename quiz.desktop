@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Multiplication Quiz
+Comment=Are you ready to multiply?
+Icon=/usr/share/pixmaps/openbox.xpm
+Exec=/home/pi/Robot/quiz.sh
+Type=Application
+Encoding=UTF-8
+Terminal=true
+Categories=None;

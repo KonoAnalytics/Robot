@@ -8,3 +8,5 @@ ssh-agent bash -c 'ssh-add /home/pi/deploy_key/deploy_key; git pull origin maste
 
 # activate environment
 source /home/pi/envs/robot353/bin/activate
+
+# quiz.desktop belongs in /home/pi/Desktop

@@ -39,7 +39,7 @@ def main():
             # print("Incorrect")
 
         light_pin(pin)
-        time.sleep(3)
+        time.sleep(2)
 
 
 if __name__ == '__main__':
