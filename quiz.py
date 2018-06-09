@@ -16,7 +16,7 @@ def main():
     GPIO.setmode(GPIO.BCM)
     GPIO.setwarnings(False)
     GPIO.setup(correct_pin, GPIO.OUT)
-    GPIO.setup(correct_pin, GPIO.OUT)
+    GPIO.setup(incorrect_pin, GPIO.OUT)
 
     while True:
         clear_pins()

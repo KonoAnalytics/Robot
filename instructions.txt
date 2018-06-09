@@ -1,0 +1,10 @@
+# install source
+ssh-agent bash -c 'ssh-add /home/pi/deploy_key/deploy_key; git clone git@github.com:konoanalytics/Robot.git'
+
+# update source
+/bin/bash
+cd /home/pi/Robot
+ssh-agent bash -c 'ssh-add /home/pi/deploy_key/deploy_key; git pull origin master'
+
+# activate environment
+source /home/pi/envs/robot353/bin/activate
