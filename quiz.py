@@ -35,8 +35,8 @@ def main():
             pin = correct_pin
             # print("Correct!")
         else:
-            print("Incorrect")
-            # pin = incorrect_pin
+            pin = incorrect_pin
+            # print("Incorrect")
 
         light_pin(pin)
         time.sleep(3)
